@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PhotoText">
+        <attr name="mText" format="string"></attr>
+        <attr name="mphoto" format="reference|color"></attr>
+        <attr name="mTextSize" format="dimension"></attr>
+        <attr name="mBackGround" format="reference"></attr>
+        <attr name="mTextColor" format="color|reference"></attr>
+
+    </declare-styleable>
+
+</resources>

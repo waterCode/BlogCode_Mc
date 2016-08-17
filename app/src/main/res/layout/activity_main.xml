@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f3f1f1"
+        android:layout_alignParentBottom="true">
+
+        <view.PhotoText
+            android:id="@+id/data_tab"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            custom:mTextSize="5dp"
+            custom:mphoto="@drawable/data_tab_selected"
+            custom:mText="数据"
+            custom:mTextColor="@drawable/textcolor_tab"
+            >
+        </view.PhotoText>
+
+        <view.PhotoText
+            android:id="@+id/setting_tab"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            custom:mphoto="@drawable/setting_tab_selected"
+            custom:mText="设置"
+            custom:mTextColor="@drawable/textcolor_tab">
+        </view.PhotoText>
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/navigationBar">
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
