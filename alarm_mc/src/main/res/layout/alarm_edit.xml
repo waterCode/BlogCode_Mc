@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b4424043"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cancel_edit_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/cross_48px_white"
+                android:background="#00000000" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="闹钟设置"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:textColor="@color/white" />
+
+            <ImageButton
+                android:id="@+id/save_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/check_48px_white"
+                android:background="@color/transparent" />
+        </LinearLayout>
+
+        <TimePicker
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePicker"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+
+
+            />
+
+
+        <ListView
+            android:id="@+id/alarm_edit_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+</LinearLayout>
+</LinearLayout>

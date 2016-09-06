@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':bluetoothconnection', ':alarm_mc'

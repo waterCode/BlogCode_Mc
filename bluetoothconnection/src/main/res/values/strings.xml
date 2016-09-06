@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BluetoothConnection</string>
+
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">搜索设备...</string>
+    <string name="select_device">选择设备连接</string>
+    <string name="none_paired">没有已匹配设备</string>
+    <string name="none_found">没有发现设备</string>
+    <string name="title_paired_devices">已匹配设备</string>
+    <string name="title_other_devices">其他设备</string>
+    <string name="button_scan">搜索设备</string>
+</resources>

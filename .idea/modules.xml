@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BlogCode_Mc.iml" filepath="$PROJECT_DIR$/BlogCode_Mc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alarm_mc/alarm_mc.iml" filepath="$PROJECT_DIR$/alarm_mc/alarm_mc.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetoothconnection/bluetoothconnection.iml" filepath="$PROJECT_DIR$/bluetoothconnection/bluetoothconnection.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="60dp">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:text="7:30"
+        android:id="@+id/alarm_delete_time"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        tools:textColor="@color/black"/>
+
+
+    <TextView
+        tools:text="仅一次"
+        android:id="@+id/alarm_name_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alarm_delete_time"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        tools:textColor="@color/black"
+
+        />
+
+    <ImageButton
+        android:id="@+id/alarm_delete_button"
+        android:src="@mipmap/delete_button_32px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent"
+        />
+</RelativeLayout>
