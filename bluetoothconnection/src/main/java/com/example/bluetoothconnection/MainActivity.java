@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case REQUEST_BT_ENABLE:
-                if (requestCode==Activity.RESULT_OK){
+                if (resultCode==Activity.RESULT_OK){
 
                 }else{
                     Toast.makeText(this, "蓝牙没有开启", Toast.LENGTH_LONG).show();

@@ -34,6 +34,6 @@ public interface Constants {
 
 
 
-    public static final String TEMPERATURE_DATA="temp_data";
+
 
 }
