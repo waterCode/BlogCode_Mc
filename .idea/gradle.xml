@@ -9,10 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PhotoPicker" />
             <option value="$PROJECT_DIR$/activityswtich" />
             <option value="$PROJECT_DIR$/alarm_mc" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bluetoothconnection" />
+            <option value="$PROJECT_DIR$/download" />
             <option value="$PROJECT_DIR$/tabLayout__mcTest" />
             <option value="$PROJECT_DIR$/viewanimation" />
           </set>
@@ -20,10 +22,12 @@
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PhotoPicker" />
             <option value="$PROJECT_DIR$/activityswtich" />
             <option value="$PROJECT_DIR$/alarm_mc" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bluetoothconnection" />
+            <option value="$PROJECT_DIR$/download" />
             <option value="$PROJECT_DIR$/tabLayout__mcTest" />
             <option value="$PROJECT_DIR$/viewanimation" />
           </set>

@@ -1,1 +1,1 @@
-include ':app', ':bluetoothconnection', ':alarm_mc', ':tabLayout__mcTest', ':activityswtich', ':viewanimation'
+include ':app', ':bluetoothconnection', ':alarm_mc', ':tabLayout__mcTest', ':activityswtich', ':viewanimation', ':PhotoPicker', ':download'
